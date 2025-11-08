@@ -1,11 +1,12 @@
 {
-  "name": "gitlab-mcp",
-  "version": "0.1.0",
+  "name": "@ahhm/gitlab-mcp",
+  "version": "0.2.0",
   "type": "module",
   "description": "MCP server exposing a tool to fetch GitLab merge request comments.",
   "main": "dist/index.js",
   "bin": {
-    "gitlab-mcp": "dist/index.js"
+    "gitlab-mcp": "dist/index.js",
+    "ahhm-gitlab-mcp": "dist/index.js"
   },
   "files": [
     "dist",
@@ -31,12 +32,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_GITHUB_USERNAME/gitlab-mcp.git"
+    "url": "git+https://github.com/AmirhosseinHanifehzadeh/gitlab-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_GITHUB_USERNAME/gitlab-mcp/issues"
+    "url": "https://github.com/AmirhosseinHanifehzadeh/gitlab-mcp/issues"
   },
-  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/gitlab-mcp#readme",
+  "homepage": "https://github.com/AmirhosseinHanifehzadeh/gitlab-mcp#readme",
   "engines": {
     "node": ">=18.0.0"
   },
