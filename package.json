@@ -1,0 +1,51 @@
+{
+  "name": "gitlab-mcp",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "MCP server exposing a tool to fetch GitLab merge request comments.",
+  "main": "dist/index.js",
+  "bin": {
+    "gitlab-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "gitlab",
+    "merge-request",
+    "comments",
+    "ai",
+    "llm",
+    "code-review"
+  ],
+  "author": "Amirhossein",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_GITHUB_USERNAME/gitlab-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/gitlab-mcp/issues"
+  },
+  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/gitlab-mcp#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.21.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}
