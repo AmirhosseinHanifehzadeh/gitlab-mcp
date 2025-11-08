@@ -1,6 +1,6 @@
 {
   "name": "@ahhm/gitlab-mcp",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "type": "module",
   "description": "MCP server exposing a tool to fetch GitLab merge request comments.",
   "main": "dist/index.js",
